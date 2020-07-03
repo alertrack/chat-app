@@ -1,6 +1,6 @@
 # Desafio
 
-O desafio consiste em desenvolver um aplicativo android de chat (Como o telegram e WhatsApp) fazendo o uso das seguintes tecnologia:
+O desafio consiste em desenvolver um aplicativo android de chat (Como o telegram e WhatsApp) fazendo o uso das seguintes tecnologias:
 
 * Kotlin / Java ou Dart (Flutter)
 * Persistência de dados (SharedPreferences)
@@ -44,7 +44,7 @@ Para ter acesso ao resto da aplicação o usuário terá que efetuar uma autenti
 }
 ```
 
-Após a resposta deverá ser persistido os dados do usuário autenticado usando SharedPreferences para não ter a necessidade de efetuar a autenticação novamente quando iniciar a aplicação, tornando a tela de lista de conversas como a principal. Os dados enviados para requisição são fictícios não existindo nenhum tipo de validação real.
+Após a resposta deverá ser persistido os dados do usuário autenticado usando SharedPreferences para não ter a necessidade de efetuar a autenticação novamente ao iniciar a aplicação, tornando a tela de lista de conversas como a principal. Os dados enviados para requisição são fictícios não existindo nenhum tipo de validação real.
 
 ##### - Lista de conversas -
 
