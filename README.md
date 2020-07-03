@@ -8,8 +8,8 @@ O desafio consiste em desenvolver um aplicativo android de chat (Como o telegram
 
 Bibliotecas recomendadas:
 
-Flutter -> https://pub.dev/packages/shared_preferences
-Kotlin / Java -> https://square.github.io/retrofit/ (Requisições)
+Flutter -> https://pub.dev/packages/shared_preferences</br>
+Kotlin / Java -> https://square.github.io/retrofit/ (Requisições)</br>
 Flutter -> https://pub.dev/packages/http (Requisições)
 
 ### Funcionamento
