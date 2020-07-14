@@ -18,9 +18,11 @@ O aplicativo será composto de três telas, seu fluxo será:
 
 ###### Autenticação -> Lista de conversas -> Conversa
 
-![alt text](https://raw.githubusercontent.com/alertrack/alertrack_teste_mobile/master/fluxo.png)
+<img src="https://raw.githubusercontent.com/alertrack/alertrack_teste_mobile/master/fluxo.png" width="auto" height="500">
 
 ##### - Autenticação -
+
+<img src="https://raw.githubusercontent.com/alertrack/alertrack_teste_mobile/master/login.png" width="auto" height="500">
 
 Para ter acesso ao resto da aplicação o usuário terá que efetuar uma autenticação com seu login e senha. Para isso será feita uma requisição do tipo POST enviando os dados da autenticação como no exemplo abaixo:
 
@@ -49,6 +51,8 @@ Para ter acesso ao resto da aplicação o usuário terá que efetuar uma autenti
 Após a resposta deverá ser persistido os dados do usuário autenticado usando SharedPreferences para não ter a necessidade de efetuar a autenticação novamente ao iniciar a aplicação, tornando a tela de lista de conversas como a principal. Os dados enviados para requisição são fictícios não existindo nenhum tipo de validação real.
 
 ##### - Lista de conversas -
+
+<img src="https://raw.githubusercontent.com/alertrack/alertrack_teste_mobile/master/home.png" width="auto" height="500">
 
 O usuário terá uma lista de conversas para continuar conversando com seus contatos, a lista será composta do nome do contato, imagem de perfil e a última mensagem desta conversa. Nesta tela deverá conter o nome do usuário logado junto sua imagem de perfil. O usuário poderá também efetuar o logout, limpando todos os dados persistidos tendo a necessidade de efetuar novamente sua autenticação. Para popular esta lista deverá ser feito uma requisição do tipo POST passando o token do usuário autenticado como no exemplo abaixo:
 
@@ -94,6 +98,8 @@ O usuário terá uma lista de conversas para continuar conversando com seus cont
 ```
 
 ##### - Conversa -
+
+<img src="https://raw.githubusercontent.com/alertrack/alertrack_teste_mobile/master/chat.png" width="auto" height="500">
 
 Cada conversa terá seu histórico de mensagens, esse histórico será uma lista de mensagens que serão obtidas por requisição GET passando como parâmetro o id do contato em conversa. Vejamos o exemplo abaixo:
 
