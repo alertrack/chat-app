@@ -16,9 +16,9 @@ Flutter -> https://pub.dev/packages/http (Requisições)
 
 O aplicativo será composto de três telas, seu fluxo será: 
 
-![alt text](https://raw.githubusercontent.com/alertrack/alertrack_teste_mobile/master/login.png)
-
 ###### Autenticação -> Lista de conversas -> Conversa
+
+![alt text](https://raw.githubusercontent.com/alertrack/alertrack_teste_mobile/master/fluxo.png)
 
 ##### - Autenticação -
 
