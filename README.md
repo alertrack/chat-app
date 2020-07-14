@@ -114,17 +114,20 @@ Cada conversa terá seu histórico de mensagens, esse histórico será uma lista
     {
       "id": 0,
       "from_me": true,
-      "message": "mensagem 0"
+      "message": "mensagem 0",
+      "timestamp": 1594736520
     },
     {
       "id": 1,
       "from_me": false,
-      "message": "mensagem 1"
+      "message": "mensagem 1",
+      "timestamp": 1594736700
     },
     {
       "id": 2,
       "from_me": false,
-      "message": "mensagem 2"
+      "message": "mensagem 2",
+      "timestamp": 1594736760
     }
   ]
 }
