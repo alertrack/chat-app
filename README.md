@@ -26,7 +26,7 @@ O aplicativo será composto de três telas, seu fluxo será:
 
 Para ter acesso ao resto da aplicação o usuário terá que efetuar uma autenticação com seu login e senha. Para isso será feita uma requisição do tipo POST enviando os dados da autenticação como no exemplo abaixo:
 
-###### POST -> http://www.alertrack.com.br/api/teste_mobile/auth
+###### POST -> http://alertrack.com.br/api/teste_mobile/auth.php
 ```
 {
   "login": "meulogin",
@@ -41,7 +41,7 @@ Para ter acesso ao resto da aplicação o usuário terá que efetuar uma autenti
   "message": "Autenticado com sucesso",
   "token": "9bdf52a4830779a1383ac24f1b3ed054",
   "user": {
-    "avatar": "http://www.alertrack.com.br/avatar.jpg",
+    "avatar": "http://www.alertrack.com.br/api/teste_mobile/img/perfil_.png",
     "name": "Meu nome",
     "email": "meuemail@alertrack.com.br"
   }
@@ -57,7 +57,7 @@ Após a resposta deverá ser persistido os dados do usuário autenticado usando 
 O usuário terá uma lista de conversas para continuar conversando com seus contatos, a lista será composta do nome do contato, imagem de perfil e a última mensagem desta conversa. Nesta tela deverá conter o nome do usuário logado junto sua imagem de perfil. O usuário poderá também efetuar o logout, limpando todos os dados persistidos tendo a necessidade de efetuar novamente sua autenticação. Para popular esta lista deverá ser feito uma requisição do tipo POST passando o token do usuário autenticado como no exemplo abaixo:
 
 
-###### POST -> http://www.alertrack.com.br/api/teste_mobile/chats
+###### POST -> http://alertrack.com.br/api/teste_mobile/chats.php
 ```
 {
   "token": "9bdf52a4830779a1383ac24f1b3ed054"
@@ -72,7 +72,7 @@ O usuário terá uma lista de conversas para continuar conversando com seus cont
     {
       "contact": {
         "id": 0,
-        "avatar": "http://www.alertrack.com.br/avatar0.jpg",
+        "avatar": "http://www.alertrack.com.br/api/teste_mobile/img/perfil1_.png",
         "name": "Contato 0"
       },
       "last_msg": "mensagem 0"
@@ -80,7 +80,7 @@ O usuário terá uma lista de conversas para continuar conversando com seus cont
     {
       "contact": {
         "id": 1,
-        "avatar": "http://www.alertrack.com.br/avatar1.jpg",
+        "avatar": "http://www.alertrack.com.br/api/teste_mobile/img/perfil1_.png",
         "name": "Contato 1"
       },
       "last_msg": "mensagem 1"
@@ -88,7 +88,7 @@ O usuário terá uma lista de conversas para continuar conversando com seus cont
     {
       "contact": {
         "id": 2,
-        "avatar": "http://www.alertrack.com.br/avatar2.jpg",
+        "avatar": "http://www.alertrack.com.br/api/teste_mobile/img/perfil1_.png",
         "name": "Contato 2"
       },
       "last_msg": "mensagem 2"
