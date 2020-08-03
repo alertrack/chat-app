@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "0a17c759-0d74-4115-a9fb-3a80e315f33b",
+		"name": "Teste Mobile",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Autenticação",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"login\": \"meulogin\",\n  \"senha\": \"123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://alertrack.com.br/api/teste_mobile/auth.php",
+					"protocol": "http",
+					"host": [
+						"alertrack",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"teste_mobile",
+						"auth.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lista de conversas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"token\": \"9bdf52a4830779a1383ac24f1b3ed054\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://alertrack.com.br/api/teste_mobile/chats.php",
+					"protocol": "http",
+					"host": [
+						"alertrack",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"teste_mobile",
+						"chats.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Conversa",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "9bdf52a4830779a1383ac24f1b3ed054",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://alertrack.com.br/api/teste_mobile/msgs.php?contact_id=1",
+					"protocol": "http",
+					"host": [
+						"alertrack",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"teste_mobile",
+						"msgs.php"
+					],
+					"query": [
+						{
+							"key": "contact_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
