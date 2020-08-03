@@ -101,10 +101,10 @@ O usuário terá uma lista de conversas para continuar conversando com seus cont
 
 <img src="https://raw.githubusercontent.com/alertrack/alertrack_teste_mobile/master/chat.png" width="auto" height="500">
 
-Cada conversa terá seu histórico de mensagens, esse histórico será uma lista de mensagens que serão obtidas por requisição GET passando como parâmetro o id do contato em conversa. Vejamos o exemplo abaixo:
+Cada conversa terá seu histórico de mensagens, esse histórico será uma lista de mensagens que serão obtidas por requisição GET passando como parâmetro o id do contato em conversa, é necessário também pessar o "token" pelo header. Vejamos o exemplo abaixo:
 
 
-###### GET -> http://www.alertrack.com.br/api/teste_mobile/msgs/id_do_contato
+###### GET -> http://alertrack.com.br/api/teste_mobile/msgs.php?contact_id=1
 
 ###### Resposta
 ```
