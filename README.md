@@ -135,3 +135,7 @@ Cada conversa terá seu histórico de mensagens, esse histórico será uma lista
 
 Para diferenciar se a mensagem é do tipo enviada pelo contato ou usuário utilizamos o atributo "from_me", onde true se foi enviada pelo usuário e false pelo contato.
 O usuário poderá enviar mensagens também, estas mensagens serão apenas para ser populada na lista de mensagens não havendo, portanto, a necessidade de ser feita qualquer tipo de requisição ou armazenamento, sendo removidas a cada vez que sair da tela da conversa.
+
+### Observações
+
+Neste repositório há um arquivo Postman para requisições
