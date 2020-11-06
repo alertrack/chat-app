@@ -1,4 +1,4 @@
-# Desafio
+# Desafio App
 
 O desafio consiste em desenvolver um aplicativo android de chat (Como o telegram e WhatsApp) fazendo o uso das seguintes tecnologias:
 
@@ -141,3 +141,8 @@ O usuário poderá enviar mensagens também, estas mensagens serão apenas para 
 ### Observações
 
 Neste repositório há um arquivo Postman para requisições
+
+
+### Como entregar
+
+* Encaminhe o link do seu repositório for para **desenvolvimento@alertrack.com.br** com o assundo **Vaga Dev Mobile**
