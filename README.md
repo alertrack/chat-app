@@ -1,4 +1,4 @@
-# Desafio App
+# Desafio Mobile: Aplicativo de Chat
 
 O desafio consiste em desenvolver um aplicativo android de chat (Como o telegram e WhatsApp) fazendo o uso das seguintes tecnologias:
 
